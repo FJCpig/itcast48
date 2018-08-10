@@ -18,6 +18,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+<<<<<<< HEAD
   margin-top: 70px;
+=======
+  margin-top:  60px;
+>>>>>>> devHomeList
 }
 </style>
