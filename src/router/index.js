@@ -1,15 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-
+import Longin from '@/views/Login'
+import Home from '@/views/Home'
 Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
+    { name: 'Home', path: '/', component: Home },
+    { name: 'Login', path: '/login', component: Longin }
   ]
 })
